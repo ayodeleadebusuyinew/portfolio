@@ -1,0 +1,30 @@
+site_name: Ayodele Adebusuyi — Cloud/DevOps/SRE Portfolio
+site_description: Production-grade platform engineering, CI/CD automation, Kubernetes operations, observability, and DevSecOps guardrails.
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+nav:
+  - Home: index.md
+  - Case Studies:
+      - HIPAA SaaS Platform: case-studies/qure4u-hipaa-platform.md
+      - CI/CD + Kubernetes Delivery: case-studies/nvidia-cicd-k8s.md
+      - Modernization & Automation: case-studies/amazon-modernization.md
+  - Architecture:
+      - Diagrams: architecture/diagrams.md
+  - Runbooks:
+      - Incident Response: runbooks/incident-response.md
+      - Kubernetes Triage: runbooks/k8s-triage.md
+      - Rollback Playbook: runbooks/rollback.md
+      - Postmortem Template: runbooks/postmortem-template.md
+  - Projects: projects.md
+  - Security & Compliance: security-compliance.md
+  - About: about.md
