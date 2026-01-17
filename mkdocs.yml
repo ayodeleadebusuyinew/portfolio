@@ -7,6 +7,35 @@ theme:
     - navigation.sections
     - toc.integrate
     - content.code.copy
+    
+    theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
 markdown_extensions:
   - admonition
   - toc:
