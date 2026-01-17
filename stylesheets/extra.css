@@ -1,0 +1,87 @@
+/* =========================
+   Trending 2026 vibe (MkDocs Material)
+   Dark-first • soft gradients • glass cards • cleaner spacing
+   ========================= */
+
+/* Smooth scrolling + cleaner text rendering */
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* Slightly wider content for “executive” feel */
+.md-grid { max-width: 1200px; }
+
+/* Make headings feel modern */
+.md-typeset h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.md-typeset h2 {
+  font-weight: 750;
+  letter-spacing: -0.015em;
+}
+
+/* --- Gradient hero effect on the landing page top area --- */
+.md-content__inner > h1:first-child {
+  background: linear-gradient(90deg, rgba(34,211,238,1) 0%, rgba(99,102,241,1) 45%, rgba(236,72,153,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* --- “Card” styling for sections (glass-like) --- */
+.md-typeset blockquote,
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 18px;
+}
+
+/* Subtle glass panel look for admonitions/notes */
+.md-typeset .admonition,
+.md-typeset details {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Nicer code blocks */
+.md-typeset pre > code {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Make tables feel modern */
+.md-typeset table:not([class]) {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Buttons/links pop a bit more */
+.md-typeset a {
+  text-decoration-thickness: 0.09em;
+  text-underline-offset: 0.18em;
+}
+
+/* --- Header polish --- */
+.md-header {
+  background: rgba(0,0,0,0.55) !important;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+/* Slightly softer nav feel */
+.md-nav__link--active,
+.md-nav__item .md-nav__link:focus,
+.md-nav__item .md-nav__link:hover {
+  border-radius: 12px;
+}
+
+/* Give content breathing room */
+.md-typeset p, .md-typeset ul, .md-typeset ol { line-height: 1.7; }
+
+/* Optional: subtle section separators */
+.md-typeset hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.14), transparent);
+}
