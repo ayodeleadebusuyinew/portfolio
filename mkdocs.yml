@@ -12,6 +12,39 @@ theme:
     - navigation.sections
     - toc.integrate
     - content.code.copy
+    - navigation.top
+    - header.autohide
+  palette:
+    # Trending: dark-first + neon accent
+    - scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
     - content.action.edit
   palette:
     - scheme: default
