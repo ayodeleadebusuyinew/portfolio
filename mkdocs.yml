@@ -1,3 +1,9 @@
+site_name: Ayodele Adebusuyi — Cloud/DevOps/SRE Portfolio
+site_url: https://ayodeleadebusuyinew.github.io/portfolio/
+repo_url: https://github.com/ayodeleadebusuyinew/portfolio
+repo_name: ayodeleadebusuyinew/portfolio
+edit_uri: edit/main/docs/
+
 theme:
   name: material
   language: en
