@@ -5,6 +5,7 @@ This page summarizes how I design, automate, secure, and operate AWS platforms i
 ---
 
 ## 1) AWS Foundations (Network + Accounts)
+- AWS Platform: aws-platform.md
 
 ### VPC architecture patterns
 - Segmented subnets (public/private), route tables, IGW/NAT
